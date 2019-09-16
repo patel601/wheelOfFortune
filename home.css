@@ -1,0 +1,43 @@
+body{
+    background-image: url("wof.jpg");
+    background-size: cover;
+
+}
+
+h1
+{
+    color: #e6005c;
+    text-align: center;
+}
+input[type=text] {
+    border: 2px solid fuchsia;
+    border-radius: 4px;
+
+}
+/* got from w3schools.com
+ */
+button
+{
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* got from w3schools.com
+ */
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+/* got from w3schools.com
+ */
+button:hover {
+    background-color: fuchsia;
+    color: white;
+}
+
+button {border-radius: 8px;}
